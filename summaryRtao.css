@@ -1,0 +1,163 @@
+.all {
+    margin: 5px;
+}
+
+.myPhoto {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.dragon {
+    width: 200px;
+}
+
+hr {
+    box-shadow: #FC0 1px 0 10px;
+    border: 1px solid #751370;
+}
+
+.im {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em red;
+    font: 1.5em Georgia, serif;
+    margin-left: 25px;
+}
+
+.im h3 {
+    font-size: 25px;
+}
+
+.mySkills {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    font: 1.5em Georgia, serif;
+    font-size: 25px;
+}
+
+h3 {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    margin-bottom: -20px;
+}
+
+.aboutMe {
+    text-shadow: #FC0 3px 5px 5px;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.aboutMe li {
+    margin: 10px;
+    margin-left: -25px;
+}
+
+.contactWithMe {
+    margin: 5px;
+    text-shadow: 1px 1px 2px purple, 0 0 1em yellow, 0 0 0.2em red;
+    font: 1.5em Georgia, serif;
+}
+
+.youtube {
+    color: red;
+    font-size: 30px;
+}
+
+.line {
+    margin: 2px;
+}
+
+a:hover {
+    text-shadow: 1px 1px 2px purple, 0 0 1em yellow, 0 0 0.2em red;
+    color: white;
+    font: 1.5em Georgia, serif;
+    font-size: 35px;
+}
+
+.arrow-left span {
+    display: inline;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid #ff3140;
+    border-left: 3px solid #ff3140;
+    position: absolute;
+    margin: 15px;
+    animation: arrow-left 1s infinite;
+    float: left;
+}
+
+@keyframes arrow-left {
+    0%{
+        opacity: 0;
+        transform: rotate(65deg) translate(-1px,-1px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(1px,1px);
+    }
+}
+
+.neon {
+    width: 5px;
+    height: 1700px;
+    position: absolute;
+
+    animation: neon 4s infinite;
+}
+
+@keyframes neon {
+
+    0%{
+        background: red;
+        box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    }
+
+    50%{
+        background: yellow;
+        box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    }
+
+    75% {
+        background: green;
+        box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    }
+
+    100%{
+        background: blue;
+        box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    }
+}
+
+
