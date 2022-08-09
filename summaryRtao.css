@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     background-color: red red 0.5;
-    background-image: url(anime1.jpg);
+    background-image: url(anime-site/anime1.jpg);
     background-repeat: no-repeat;
     background-size: 400px 200px;
 }
@@ -43,8 +43,15 @@ hr {
 
 .mySkills {
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
-
     font-size: 25px;
+    margin-left: 25px;
+}
+
+.mySkills li {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    font-size: 25px;
+    margin: 10px;
+    margin-left: -25px;
 }
 
 h3 {
@@ -217,5 +224,4 @@ a:hover {
         0 0 151px #0fa;
     }
 }
-
 
