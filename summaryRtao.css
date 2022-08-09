@@ -3,18 +3,32 @@
     margin-left: 10px;
 }
 
-.myPhoto {
-    border-radius: 50%;
-    width: 150px;
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: red red 0.5;
+    background-image: url(anime-site/anime1.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
 }
 
-.dragon {
-    width: 200px;
+.myPhoto {
+    transform: translate(10%, 50%);
+    margin-top: 15px;
+    border-radius: 50%;
+    width: 150px;
+    display: absolute;
+    top: 100px;
+    bottom: 100px;
 }
 
 hr {
     box-shadow: #FC0 1px 0 10px;
     border: 1px solid #751370;
+}
+
+.all1 {
+    margin-top: 90px;
 }
 
 .im {
@@ -29,7 +43,7 @@ hr {
 
 .mySkills {
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
-    font: 1.5em Georgia, serif;
+
     font-size: 25px;
 }
 
