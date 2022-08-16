@@ -6,7 +6,7 @@
 }
 
 #sidebar {
-    width: 250px;
+
     position:absolute;
     background: #333;
     left: -1400px;
@@ -17,19 +17,23 @@
     left: 90px;
 }
 
-#sidebar ul li:first-child {
+#sidebar ul li {
+    width: 100px;
     color: white;
     font-size: 1.95em;
     list-style: none;
-}
-
-#sidebar ul li:not(first-child){
-    width: 100%;
     box-shadow: 0px 20px 20px black;
     font-size: 1.1em;
-    padding: 15px 80% 15px 15px;
+    padding: 15px 0% 15px 15px;
     list-style-type: none;
 }
+
+/*#sidebar ul li:not(first-child){
+    box-shadow: 0px 20px 20px black;
+    font-size: 1.1em;
+    padding: 15px 0% 15px 15px;
+    list-style-type: none;
+}*/
 
 #sidebar ul li a {
     text-decoration: none;
@@ -47,7 +51,6 @@
 #sidebar a:hover {text-shadow: 2px 2px 2px, 19px 10px 100em yellow;}
 
 .toggle-btn {
-
     left: 20px;
     position: absolute;
     background: black;
@@ -163,7 +166,6 @@ a:hover {
     text-decoration: none;
     position: absolute;
     color: red;
-
 }
 
 .discord {
@@ -190,13 +192,11 @@ a:hover {
 @keyframes arrow-left {
 
     0%{
-
         opacity: 0;
-        transform: rotate(0deg) translate( 200px, -1px );
+        transform: rotate(0deg) translate( 25px, -1px );
     }
 
     50%{
-
         opacity: 1;
         transform: rotate(5deg) translate( 2px , -2px);
     }
@@ -212,7 +212,6 @@ a:hover {
     }
 
     100%{
-
         opacity: 0;
         transform: rotate(0deg) translate( -0px , -0px);
     }
@@ -322,6 +321,36 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 397px) {
+    .discord {
+        position: sticky;
+    }
+
+    .toggle-btn {    #sidebar {
+        margin-top: 40px;
+
+    }
+        position: sticky;
+        width: 33px;
+    }
+
+    #sidebar {
+        margin-top: 40px;
+    }
+
+    .neon {
+        height: 1150px;
+    }
+}
+
+@media screen and (max-width: 382px) {
+        #sidebar {
+            margin-top: 100px;
+        }
+}
+
+
+
 .light-theme {
     background-image: url(anime-site/gray.jpg);
     background-repeat: no-repeat;
@@ -347,16 +376,5 @@ a:hover {
     color: white;
     box-shadow: 1px 1px 2px violet, 0 0 1em violet, 0 0 0.2em purple;
 }
-
-
-
-/*
-@media screen and (max-width:700px) {
-    .light-theme {
-        background-image: url(anime-site/gray.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 130%;
-}}
-*/
 
 
