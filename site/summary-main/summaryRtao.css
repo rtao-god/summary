@@ -6,8 +6,7 @@
 }
 
 #sidebar {
-
-    position:absolute;
+    position: absolute;
     background: #333;
     left: -1400px;
 }
@@ -27,13 +26,6 @@
     padding: 15px 0% 15px 15px;
     list-style-type: none;
 }
-
-/*#sidebar ul li:not(first-child){
-    box-shadow: 0px 20px 20px black;
-    font-size: 1.1em;
-    padding: 15px 0% 15px 15px;
-    list-style-type: none;
-}*/
 
 #sidebar ul li a {
     text-decoration: none;
@@ -65,27 +57,6 @@
     height: 4px;
     background-color: #408;
     margin: 4px;
-}
-
-@media screen and (max-width: 732px) {
-
-    .toggle-btn, #sidebar.active {
-        top: 770px;
-    }
-}
-
-@media screen and (max-width: 628px) {
-
-    .toggle-btn, #sidebar.active {
-        top: 800px;
-    }
-}
-
-@media screen and (max-width: 588px) {
-
-    .toggle-btn, #sidebar.active {
-        top: 820px;
-    }
 }
 
 .toggle-btn:hover {background: #300;}
@@ -326,29 +297,58 @@ a:hover {
         position: sticky;
     }
 
-    .toggle-btn {    #sidebar {
-        margin-top: 40px;
-
-    }
+    .toggle-btn {
+        display: block;
         position: sticky;
         width: 33px;
     }
-
-    #sidebar {
-        margin-top: 40px;
-    }
-
+    
     .neon {
         height: 1150px;
     }
 }
 
-@media screen and (max-width: 382px) {
-        #sidebar {
-            margin-top: 100px;
-        }
+@media screen and (max-width: 628px) {
+    #sidebar {
+        margin-top: 50px;
+    }
 }
 
+@media screen and (max-width: 588px) {
+    #sidebar {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    #sidebar {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 388px) {
+    #sidebar {
+        margin-top: 130px;
+    }
+}
+
+@media screen and (max-width: 382px) {
+     #sidebar {
+          margin-top: 180px;
+     }
+}
+
+@media screen and (max-width: 375px) {
+     #sidebar {
+          margin-top: 210px;
+     }
+}
+
+@media screen and (max-width: 322px) {
+     #sidebar {
+          margin-top: 240px;
+     }
+}
 
 
 .light-theme {
@@ -376,5 +376,3 @@ a:hover {
     color: white;
     box-shadow: 1px 1px 2px violet, 0 0 1em violet, 0 0 0.2em purple;
 }
-
-
